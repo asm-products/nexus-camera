@@ -18,7 +18,7 @@ local.properties
 .loadpath
 
 # Eclipse Core
-.project
+#.project
 
 # External tool builders
 .externalToolBuilders/
@@ -61,7 +61,7 @@ local.properties
 # Generated files
 bin/
 gen/
-libs/
+
 
 # Gradle files
 .gradle/
