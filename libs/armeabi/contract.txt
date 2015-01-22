@@ -1,0 +1,9 @@
+License, Use, Platform, and Purpose
+
+Grant of License. The Mohamed Moubarak grants Assembly Inc. a limited, nonexclusive license, royalty-free, non-transferable, non-sub licensable, and non-assignable to use the software "libjni_mosaic.so":
+
+(a) solely in executable or object code, machine-readable form
+
+(b) on any number of computers, mobile phones, or servers
+
+(c) for commercial use.
