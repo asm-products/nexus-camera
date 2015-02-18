@@ -669,4 +669,7 @@ CHAR LIMIT = NONE] -->
 
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">Setting wallpaper</string>
+    
+    <!--  AdMob Dummy Test Account for testing purposes -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
  </resources>
