@@ -1,6 +1,6 @@
 # nexus camera
 
-<a href="https://assembly.com/nexus-camera/bounties"><img src="https://asm-badger.herokuapp.com/nexus-camera/badges/tasks.svg" height="24px" alt="Open Tasks" /></a>
+<a href="https://assembly.com/nexus-camera/bounties?utm_campaign=assemblage&utm_source=nexus-camera&utm_medium=repo_badge"><img src="https://asm-badger.herokuapp.com/nexus-camera/badges/tasks.svg" height="24px" alt="Open Tasks" /></a>
 
 ## effortless, gesture-based, and deeply integrated into android.
 
