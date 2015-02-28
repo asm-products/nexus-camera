@@ -2,12 +2,12 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.radcam.camera"
-    android:versionCode="50005"
-    android:versionName="1.2.4">
+    android:versionCode="50007"
+    android:versionName="1.2.7">
 
     <uses-sdk
         android:minSdkVersion="11"
-        android:targetSdkVersion="18" />
+        android:targetSdkVersion="21" />
 
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -150,6 +150,9 @@
         </receiver>
 
         <service android:name="com.android.camera.MediaSaveService" />
+        
+        <meta-data android:name="com.google.android.gms.version"
+           android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

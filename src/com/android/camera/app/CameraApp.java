@@ -20,6 +20,9 @@ import android.app.Application;
 
 import com.android.camera.util.CameraUtil;
 import com.android.camera.util.UsageStatistics;
+import com.google.android.gms.analytics.GoogleAnalytics;
+import com.google.android.gms.analytics.Logger.LogLevel;
+import com.google.android.gms.analytics.Tracker;
 
 public class CameraApp extends Application {
 
@@ -28,6 +31,24 @@ public class CameraApp extends Application {
         super.onCreate();
         UsageStatistics.initialize(this);
         CameraUtil.initialize(this);
+        
+        this.getAnalyticsTracker();
     }
+    
+    private Tracker getAnalyticsTracker() {
+    	if (mAnalyticsTracker == null) {
+    	    GoogleAnalytics analytics = GoogleAnalytics.getInstance(this);
+    	    analytics.enableAutoActivityReports(this);
+    	    analytics.getLogger().setLogLevel(LogLevel.VERBOSE);
+
+    	    mAnalyticsTracker = analytics.newTracker(mTrackerID);
+    	    mAnalyticsTracker.enableAutoActivityTracking(true);
+    	    mAnalyticsTracker.enableExceptionReporting(true);
+    	}
+    	return mAnalyticsTracker;
+    }
+    
+    private Tracker mAnalyticsTracker;
+    private String mTrackerID = "UA-60124160-2";
 }
 
