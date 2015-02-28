@@ -49,6 +49,6 @@ public class CameraApp extends Application {
     }
     
     private Tracker mAnalyticsTracker;
-    private String mTrackerID = "UA-59522160-1";
+    private String mTrackerID = "UA-60124160-2";
 }
 
